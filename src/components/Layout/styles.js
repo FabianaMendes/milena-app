@@ -10,7 +10,7 @@ export const IronBackground = styled.div`
         linear-gradient(to right bottom, rgba(88, 201, 226, 0.7), rgba(114, 114, 114, 0)),
         linear-gradient(to left top, rgba(184, 36, 187, 0.35), rgba(114, 114, 114, 0)),
         url(${Image});
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -25,6 +25,9 @@ export const IronBackground = styled.div`
         position: absolute;
         z-index: 1;
         background-image: url(${Image});
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
         opacity: 0.15;
     }
 `
